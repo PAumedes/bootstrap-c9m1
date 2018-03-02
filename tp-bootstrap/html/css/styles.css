@@ -1,0 +1,186 @@
+/* VARIABLES */
+:root{
+  --azul: #2C3E50;
+  --verde: #18BC9C;
+}
+
+/* FONTS */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+/* BACKGROUNDS */
+
+.bg-azul{
+  background-color: var(--azul);
+}
+
+.bg-verde{
+  background-color: var(--verde);
+}
+
+.bg-blanco{
+  background-color: #FFF;
+}
+
+/* HEADER */
+
+h1{
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 900;
+}
+
+.header{
+  margin-bottom: 15px;
+}
+
+.navbar{
+  background-color: var(--verde);
+  border-radius: 10px;
+  min-width: 70px;
+  padding: 5px 10px;
+}
+
+.navbar a{
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF !important;
+  margin-right: 0px;
+}
+
+.navbar-toggler{
+  border: none;
+  padding: 0px;
+  font-size: 1.2em;
+}
+
+.ion-navicon{
+  color: #FFF;
+}
+
+/* PROFILE */
+
+.profile{
+  background-color: var(--verde);
+  margin-top: 15px;
+}
+
+.profile img{
+  display: block;
+  margin: 30px auto;
+}
+
+.profile h2{
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.profile p{
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 0px 60px;
+}
+
+.container-line{
+  position: relative;
+  height: 40px;
+  padding: 0;
+  margin: 0px auto 20px;
+  width: 70%;
+}
+
+.line {
+  border: 2px solid white;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+
+.profile div span{
+  position: absolute;
+  left: 40%;
+  padding: 10px;
+  color: #FFF;
+  background-color: var(--verde);
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+  background-color: #FFF;
+}
+
+.portfolio h2{
+  color: var(--azul);
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+.portfolio div img{
+  width: 80%;
+}
+
+.line-blue {
+  border: 2px solid var(--azul);
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+
+.portfolio div span{
+  position: absolute;
+  left: 40%;
+  padding: 10px;
+  color: var(--azul);
+  background-color: #FFF;
+}
+
+.portfolio div img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* ABOUT */
+
+.about h2{
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+.about div span{
+  position: absolute;
+  left: 40%;
+  padding: 10px;
+  color: #FFF;
+  background-color: var(--verde);
+}
+
+.about p{
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 0px 60px;
+}

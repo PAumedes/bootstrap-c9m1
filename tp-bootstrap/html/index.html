@@ -7,6 +7,7 @@
   <!-- Bootstrap-CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>Document</title>
 </head>
@@ -14,24 +15,28 @@
 <body>
   <!-- CONTAINER -->
   <div class="container-fluid">
-    <div class="row">
+    <div class="row bg-azul d-flex justify-content-center">
       <!-- HEADER -->
       <div class="header col-12">
         <h1>Freelance Portfolio</h1>
         <!-- NAV -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light col-4">
-          <a class="navbar-brand" href="#">Menú</a>
+        <nav class="navbar navbar-expand-lg navbar-light col-3">
+          <a class="navbar-brand" href="#">Menu</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="ion-navicon"></i>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -39,46 +44,54 @@
         <!-- /NAV -->
       </div>
       <!-- /HEADER -->
+    </div>
       <!-- PROFILE -->
+    <div class="row bg-verde d-flex justify-content-center">
       <div class="profile col-12">
         <img src="./images/profile.png" alt="Profile Photo">
         <h2>Freelance Portfolio</h2>
-        <div class="col-12">
-          <div class="line col-12"></div>
-          <i class="fas fa-star"></i>
+        <div class="container-line">
+          <div class="line"></div>
+          <span><i class="fas fa-star"></i></span>
         </div>
-        <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+        <p>Web Developer - Graphic Artist - User Experience Designer</p>
       </div>
       <!-- /PROFILE -->
+    </div>
+    <div class="row bg-blanco d-flex justify-content-center">
       <!-- PORTFOLIO -->
-      <div class="portfolio">
-        <h3>Portfolio</h3>
-        <div class="col-12">
-          <div class="line col-12"></div>
-          <i class="fas fa-star"></i>
+      <div class="portfolio col-12">
+        <h2>Portfolio</h2>
+        <div class="container-line">
+          <div class="line-blue"></div>
+          <span><i class="fas fa-star"></i></span>
         </div>
-        <div><img src="images" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
+        <div><img src="images/cabin.png" alt=""></div>
+        <div><img src="images/cake.png" alt=""></div>
+        <div><img src="images/circus.png" alt=""></div>
+        <div><img src="images/game.png" alt=""></div>
+        <div><img src="images/safe.png" alt=""></div>
+        <div><img src="images/submarine.png" alt=""></div>
       </div>
       <!-- /PORTFOLIO -->
+    </div>
       <!-- ABOUT -->
-      <div class="about">
-        <h3>About</h3>
-        <div class="col-12">
-          <div class="line col-12"></div>
-          <i class="fas fa-star"></i>
+    <div class="row bg-verde d-flex justify-content-center">
+      <div class="about col-12">
+        <h2>About</h2>
+        <div class="container-line">
+          <div class="line"></div>
+          <span><i class="fas fa-star"></i></span>
         </div>
         <p>Freelancer is a free landing page theme created for free use. The download includes the complete source files including HTML, CSS and JavaScript as well as optional SASS stylesheets for easy customization.</p>
         <p>Whether you're a student looking to shocase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-primary"><i class="ion-ios-cloud-download"></i>Download Now!</button>
+        </div>
       </div>
       <!-- /ABOUT -->
+    </div>
       <!-- CONTACT -->
-      <div class="contact">
+      <div class="contact col-12">
         <h3>Contact me</h3>
         <div class="col-12">
           <div class="line col-12"></div>
@@ -103,7 +116,7 @@
       </div>
       <!-- /CONTACT -->
       <!-- LOCATION -->
-      <div class="location">
+      <div class="location col-12">
         <h4>Location</h4>
         <p>2215 John Daniel Drive</p>
         <p>Clark, MO 65243</p>
@@ -114,7 +127,6 @@
       </div>
       <!-- /LOCATION -->
     </div>
-  </div>
   <!-- /CONTAINER -->
 
 
